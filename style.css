@@ -48,13 +48,15 @@ button {
   color: #3a3a3a;
 }
 
-.btn.todo__btn_delete .btn__image {
+.btn.todo__btn_delete
+.btn__image {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.btn.todo__btn_delete .btn__image:hover {
+.btn.todo__btn_delete
+.btn__image:hover {
   transform: rotateZ(0);
 }
 
@@ -149,22 +151,29 @@ button {
 }
 
 /* Task list completed styles */
-.todo__list.todo__list_completed .todo__label {
+.todo__list.todo__list_completed
+.todo__label {
   text-decoration: line-through;
   color: #888;
 }
 
 /* Task list edit styles */
-.todo__list .todo__item .text-input {
+.todo__list
+.todo__item
+.text-input {
   display: none;
 }
 
-.todo__list .todo__item.todo__item_edit-mode .text-input {
+.todo__list
+.todo__item.todo__item_edit-mode
+.text-input {
   display: inline-block;
   width: 224px;
 }
 
-.todo__list .todo__item.todo__item_edit-mode .todo__label {
+.todo__list
+.todo__item.todo__item_edit-mode
+.todo__label {
   display: none;
 }
 
